@@ -16,3 +16,4 @@ class WebhookJob < ApplicationJob
       Rails.logger.error("Error sending webhook: #{e.message}")
   end
 end
+

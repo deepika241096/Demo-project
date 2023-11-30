@@ -4,3 +4,4 @@ development:
 
 production:
   endpoint: "https://production-user-webhook-url.com"
+
