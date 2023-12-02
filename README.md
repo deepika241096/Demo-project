@@ -3,22 +3,28 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
+Clone (make a copy) of this repository.
 
-* System dependencies
+## Install gem
 
-* Configuration
+Do 'bundle install'
 
-* Database creation
+## Database setup
 
-* Database initialization
+'Create Database with postgres'
+'Add username and password for authentication'
 
-* How to run the test suite
+## Migration
 
-* Services (job queues, cache servers, search engines, etc.)
+Do 'rails db:migrate'
 
-* Deployment instructions
+## Routes
 
-* ...
+check the routes added 'rails routes'
+
+## Server
+
+run 'rails s'
+
